@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abdullah Aqeel - Resume</title>
+<style>
+  /* Reset and basic styling */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+
+  body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+  }
+
+  a {
+    color: #0077b5;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .container {
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  }
+
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  header img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    object-fit: cover;
+  }
+
+  header h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+  }
+
+  header h2 {
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #555;
+  }
+
+  section {
+    margin-bottom: 25px;
+  }
+
+  section h3 {
+    color: #222;
+    border-bottom: 2px solid #0077b5;
+    display: inline-block;
+    padding-bottom: 3px;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+  }
+
+  .profile p {
+    margin-bottom: 10px;
+  }
+
+  .contact-info, .hobbies, .skills, .education, .experience, .projects {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .contact-info div, .hobbies div, .skills div, .education div, .experience div {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .contact-info div span, .hobbies div span, .skills div span {
+    width: 100%;
+  }
+
+  .skills ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .skills ul li {
+    background-color: #0077b5;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9em;
+  }
+
+  .education div, .experience div {
+    margin-bottom: 10px;
+  }
+
+  .education div span, .experience div span {
+    display: block;
+  }
+
+  .education div .date, .experience div .date {
+    color: #555;
+    font-size: 0.85em;
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .skills ul {
+      flex-direction: column;
+    }
+  }
+
+  .download-btn {
+    display: inline-block;
+    background-color: #0077b5;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 15px;
+    transition: 0.3s;
+  }
+
+  .download-btn:hover {
+    background-color: #005f8d;
+  }
+
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <img src="https://res.cloudinary.com/dv7fu8gwf/image/upload/v1763546445/profile_altmcj.jpg" alt="Abdullah Aqeel">
+    <h1>ABDULLAH AQEEL</h1>
+    <h2>Programmers Force Trainee Program</h2>
+  </header>
+
+  <section class="profile">
+    <h3>Profile</h3>
+    <p>An ambitious software engineering student who always focuses on problem-solving and logic building.</p>
+    <p>My priority is always hard work and learning without focusing upon the outcome too early, as the journey teaches us more than the destination.</p>
+  </section>
+
+  <section class="contact-info">
+    <h3>Contact</h3>
+    <div><span>📞 Phone: 0332-483-8836</span></div>
+    <div><span>✉️ Email: <a href="mailto:abdullahsallehaqeel123@gmail.com">abdullahsallehaqeel123@gmail.com</a></span></div>
+    <div><span>GitHub: <a href="https://abdullah929-design.github.io/" target="_blank">https://abdullah929-design.github.io/</a></span></div>
+    <div><span>LinkedIn: <a href="https://www.linkedin.com/in/abdullah-aqeel-671551321/" target="_blank">https://www.linkedin.com/in/abdullah-aqeel-671551321/</a></span></div>
+  </section>
+
+  <section class="hobbies">
+    <h3>Hobbies</h3>
+    <div>
+      <span>Coding</span>
+      <span>Learning technical skills</span>
+      <span>Gym</span>
+      <span>Sports</span>
+    </div>
+  </section>
+
+  <section class="education">
+    <h3>Education</h3>
+    <div>
+      <span>Beacon House School System</span>
+      <span class="date">Jan 2018 – Jan 2020 | Achieved 8 A*’s Academic Excellence Award</span>
+    </div>
+    <div>
+      <span>Punjab College</span>
+      <span class="date">Jan 2020 – Jan 2022 | Achieving good academic status in accumulated total</span>
+    </div>
+    <div>
+      <span>Comsats University Lahore</span>
+      <span class="date">CGPA 3.60</span>
+    </div>
+  </section>
+
+  <section class="experience">
+    <h3>Work Experience</h3>
+    <div>
+      <span>Comsats University Lahore Student</span>
+      <span class="date">Jan 2023 – Jan 2027 | Currently enrolled in Bachelors of Software Engineering program with an above average GPA and decent set of skills</span>
+    </div>
+  </section>
+
+  <section class="skills">
+    <h3>Skills</h3>
+    <ul>
+      <li>React (State Management + Redux)</li>
+      <li>Express</li>
+      <li>MongoDB/Postgres SQL</li>
+      <li>Node JS</li>
+      <li>Bootstrap</li>
+      <li>Python</li>
+      <li>Java</li>
+      <li>Flutter</li>
+      <li>Flask</li>
+    </ul>
+  </section>
+
+  <a href="#" class="download-btn" onclick="downloadResume()">Download Resume PDF</a>
+</div>
+
+<script>
+  function downloadResume() {
+    alert("You can link this button to your PDF resume for direct download!");
+  }
+</script>
+</body>
+</html>
